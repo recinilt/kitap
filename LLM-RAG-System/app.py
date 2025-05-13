@@ -176,7 +176,7 @@ def process_transcripts_directory(transcript_dir, series_name, num_episodes, pro
         if num_eps <= 0:
             num_eps = 1  # En az 1 video olmalı
             
-        prompt = f"""'{series_name}' başlıklı {num_eps} bölümlük video serisini edebi bir dille kitaplaştır. 
+        prompt = f"""'{series_name}' başlıklı {num_eps} bölümlük video serisini edebi bir dille Türkçe olarak kitaplaştır. 
         Kitabı, yayınlanabilir kalitede edebi bir dille yaz. 
         İçindekiler, tanımlar, bölümler ve alt başlıklar içeren tutarlı, bütünlüklü ve tekrarsız bir kitap formatında düzenle.
         Tek bölümlük olsa da, içeriği zenginleştir ve derinleştir.
@@ -249,7 +249,7 @@ def process_transcript_files(file_paths, series_name, num_episodes, progress=gr.
         if num_eps <= 0:
             num_eps = 1  # En az 1 video olmalı
             
-        prompt = f"""'{series_name}' başlıklı {num_eps} bölümlük video serisini edebi bir dille kitaplaştır. 
+        prompt = f"""'{series_name}' başlıklı {num_eps} bölümlük video serisini edebi bir dille Türkçe olarak kitaplaştır. 
         Kitabı, yayınlanabilir kalitede edebi bir dille yaz. 
         İçindekiler, tanımlar, bölümler ve alt başlıklar içeren tutarlı, bütünlüklü ve tekrarsız bir kitap formatında düzenle.
         Tek bölümlük olsa da, içeriği zenginleştir ve derinleştir.
@@ -306,7 +306,7 @@ def create_book_from_videos(series_name, num_episodes, progress=gr.Progress()):
             num_eps = 1  # En az 1 video olmalı
         
         progress(0.2, desc="Kitap içeriği hazırlanıyor...")    
-        prompt = f"""'{series_name}' başlıklı {num_eps} bölümlük video serisini edebi bir dille kitaplaştır. 
+        prompt = f"""'{series_name}' başlıklı {num_eps} bölümlük video serisini edebi bir dille Türkçe olarak kitaplaştır. 
         Kitabı, yayınlanabilir kalitede edebi bir dille yaz. 
         İçindekiler, tanımlar, bölümler ve alt başlıklar içeren tutarlı, bütünlüklü ve tekrarsız bir kitap formatında düzenle.
         Tek bölümlük olsa da, içeriği zenginleştir ve derinleştir.
