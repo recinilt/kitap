@@ -4,17 +4,20 @@ from vector_store import VectorStore
 from document_processor import DocumentProcessor
 from language_model import LanguageModel
 from langchain.prompts import PromptTemplate
+import torch
 
 class RAGSystem:
     def __init__(self, vector_store_dir="faiss_index"):
         self.vector_store = VectorStore(persist_directory=vector_store_dir)
-        self.document_processor = DocumentProcessor()
-        #self.language_model = LanguageModel()
-        #self.language_model = LanguageModel("mistralai/Mistral-7B-Instruct-v0.1")
-        #self.language_model = LanguageModel("mistralai/Mistral-7B-v0.1")
-        self.language_model = LanguageModel("tiiuae/falcon-7b-instruct")
-
-
+        self.document_processor = DocumentProcessor(chunk_size=384, chunk_overlap=50)
+        
+        # GPU belleğinize göre en uygun modeli seçin
+        if torch.cuda.is_available() and torch.cuda.get_device_properties(0).total_memory > 8 * 1024 * 1024 * 1024:
+            # 8GB+ GPU için daha güçlü model
+            self.language_model = LanguageModel("tiiuae/falcon-7b-instruct")
+        else:
+            # Daha az bellek için daha küçük model
+            self.language_model = LanguageModel("tiiuae/falcon-7b-instruct")
 
         self.llm = None
         self.qa_chain = None
@@ -29,7 +32,8 @@ class RAGSystem:
             vector_store = None
         
         if vector_store:
-            retriever = vector_store.as_retriever(search_kwargs={"k": 5})
+            # Daha fazla benzer doküman getir (5 yerine 7)
+            retriever = vector_store.as_retriever(search_kwargs={"k": 7})
             
             # Edebi ton için özel prompt tanımlama
             template = """Görevin, verilen metinleri edebi bir dile dönüştürmek, kitapları özetlemek veya video transkriptlerini kitaplaştırmaktır.
@@ -77,8 +81,31 @@ class RAGSystem:
         if not self.qa_chain:
             raise ValueError("Sistem henüz başlatılmadı. Önce initialize() metodunu çağırın.")
         
-        result = self.qa_chain({"query": question})
-        return {
-            "answer": result["result"],
-            "source_documents": result["source_documents"]
-        }
+        # Sorguyu parçalara böl ve işle (çok uzunsa)
+        if len(question) > 4000:
+            print("[INFO] Sorgu çok uzun, parçalara bölünüyor...")
+            chunks = [question[i:i+4000] for i in range(0, len(question), 4000)]
+            results = []
+            
+            for i, chunk in enumerate(chunks):
+                print(f"[INFO] Sorgu parçası {i+1}/{len(chunks)} işleniyor...")
+                part_result = self.qa_chain({"query": chunk})
+                results.append(part_result["result"])
+            
+            # Sonuçları birleştir
+            combined_result = "\n\n".join(results)
+            
+            # Kaynak belgelerini ilk parçadan al (basitlik için)
+            source_documents = self.qa_chain({"query": chunks[0]})["source_documents"]
+            
+            return {
+                "answer": combined_result,
+                "source_documents": source_documents
+            }
+        else:
+            # Normal sorgu işleme
+            result = self.qa_chain({"query": question})
+            return {
+                "answer": result["result"],
+                "source_documents": result["source_documents"]
+            }

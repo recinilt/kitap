@@ -1,0 +1,901 @@
+Bu bildiğiniz ampul. Bugün kafamızı
+nereye çevirsek gördüğümüz eskimiş bir
+teknoloji. Eskimiş diyorum çünkü bu tarz
+filamentli veya akor ampuller yüksek
+dirençli bir telin üzerinden bol
+miktarda elektrik akımı geçirerek o
+filamenti ısıtmaya, akkor hale getirmeye
+ve o yolla etrafa ışık saçmaya
+dayanıyor. Bu ışık üretmek için son
+derece verimsiz bir yöntem. Çünkü sırf
+bir miktar ışık üretebilmek için etrafa
+aşırı miktarda ısıda saçıyor. Hatta o
+nedenle eski ampuller kısa bir süre
+sonra bile elle dokunamayacağınız kadar
+sıcak oluyorlar. Anlayacağınız bu tür
+eskimiş ampullerin artık değiştirilmesi
+gerekiyor. Ki kısaca LED dediğimiz ışık
+saçan diyotlar gerçekten de neredeyse
+hiç ısı saçmaksızın ışık üretmeyi
+başarıyorlar. O nedenle yüzlerce saat
+boyunca açık kalmış bir lede bile
+rahatlıkla dokunabiliyorsunuz. Ama bu
+eskimiş ampulün tarihin tozlu
+sayfalarına karışmadan önce anlatacağı
+son bir hikaye daha var. Ve bu çok tuhaf
+bir hikaye. 20. yüzyılın en büyük
+fizikçilerinin kafasını yıllarca
+karıştırmış bir hikaye. Bu öyle bir
+hikaye ki şöyle anlatayım. Bugün kuantum
+mekaniği olarak bildiğimiz o muhteşem
+bilim dalı öyle dolanıklıktır,
+süperpozisyondur, çift yarık deneyidir
+falan gibi şeylerle değil. İşte tam da
+bu ampulün çalışmasını sağlayan kavite
+radyasyonu olgusu sayesinde mümkün oldu.
+Gelin yüzy yılın biliminin doğuşuna
+antik bir ampulün ölümü üzerinden
+tanıklık edelim.
+1874 yılında Münih Üniversitesi'nde
+fizik okumaya başlayan Max Plank aslen
+müzik konusunda çok becerikliydi. Şan
+dersleri almıştı. Piyano, organ ve cello
+çalabiliyordu. Hatta genç yaşında
+şarkılar ve operalar bile bestelemişti.
+Daha 6 yaşındayken matematik konusunda
+da yetenekli olduğunu ispatlayan Max,
+oldukça geleneksel ama entelektüel olan
+ailesinin de talebi ve yönlendirmesiyle
+çok erken yaşlarda astronomi, mekanik ve
+matematik dersleri almaya başladı. Bu
+dersler sırasında tanıştığı enerjinin
+korunumu yasasından fazlasıyla
+etkilendiği için biraz da ailesini
+memnun etmek adına müzik yerine fizik
+alanında kariyer yapmayı seçti. Bu
+kararı insanlığın kaderini değiştirecek
+ilk kararıydı. Benzer bir diğer
+kararıysa üniversitenin son
+sınıfındayken verdi. 1878 yılında Münih
+Üniversitesi'nde aslen deneysel fizik
+üzerine çalışıyordu. Platin elementinin
+ısıtılması sırasında hidrojenin
+malzemeye nasıl difüze olduğunu
+araştırıyordu. Ama bu çalışmaları
+sırasında deneysel fiziğin kendisine
+göre olmadığını anlayarak teorik fiziğe
+geçiş yapmak istedi. Kocası Philip Von
+Jolly ise teorik fizik yapacağına başka
+bir meslek seçmesi gerektiğini
+tembihledi. Çünkü ona göre fizikte artık
+keşfedecek hiçbir şey kalmamıştı. Evet,
+fizik Newton'dan beri bin bir zorluktan
+geçerek fiziğin o dönem bilinen üç büyük
+dalının hepsini yani mekaniği,
+termodinamiği ve
+elektromanyetizmayı kusursuza yakın bir
+şekilde açıklamayı başarmıştı. Sadece
+Jolly'ye göre değil, 1800'lerin
+sonundaki birçok fizikçiye göre artık
+fizikte en fazla bir iki pürüz kalmıştı.
+Sonrasında bilim fizikle ilgili
+bilinmesi gereken her şeyi bilmiş
+olacaktı. Nasıl ama? Bundan hala
+öngörüsüzlük mü olur? Dönemin
+fizikçileri kendilerinden öylesine
+eminlerdi ki o bir iki pürüz de tam
+olarak ne olduğunu söyleme cürretini
+bile göstermişlerdi. Mesela büyük
+matematikçi, fizikçi ve mühendis Lord
+Calvin fiziğin önündeki bulutlar olarak
+tarif ettiği o pürüzlerden ilkinin
+Michelson Morley'in yaptığı o meşhur
+deneyde sandıkları gibi evreni kaplayan
+bir ışık saçan eterin olmadığını
+görmelerinin yarattığı belirsizlik
+olduğunu söylemişti. ki o pürüzü
+deneyden sadece 18 yıl sonra Albert
+Einstein çözecekti. Kelvin'e göre ikinci
+pürüzse istatistiki mekanik alanındaki
+birtım belirsizliklerdi. Bunun en
+belirgin örneği ise ısının tam olarak
+nasıl yayıldığının henüz açıklanamamış
+olması problemiydi. İşte bu kürüs çok
+daha farklı bir dehayı gerektiriyordu.
+Plank gibi bir dehayı. Ne var ki
+Plank'ın hocası Jolly, tıpkı Lord Calvin
+gibi bu son pürüzlerinde akıllıca
+tasarlanmış deneylerle çözüleceğini,
+dolayısıyla teorik fizik yapmanın artık
+bir anlamı kalmadığını söylemişti. İşte
+Plank'ın ikinci büyük kararı buydu.
+Plank hocasının nasihatine kulak
+asmamayı seçti. Bunu yaparken aklından
+geçen tam olarak neydi bilmek zor ama bu
+kararının doğruluğuna hiçbir şüphe yok.
+Zira bu kararından 22 sene sonra, tam da
+1900 yılının sonunda o ikinci dev pürüzü
+çözmeyi başaracak isim ta kendisi
+olacaktı. Ve bu çözüm hocasının
+zannettiği gibi fiziği tamamlayıp
+bitirmek bir yana dursun fiziğin önünde
+daha hiç keşfedilmemiş yepyeni bir oyun
+alanı yaratacaktı.
+1800'lerin sonunda Almanya sokakları da
+tıpkı diğer yerler gibi hala gaz
+lambalarıyla aydınlatılıyordu. Ama aynı
+zamanda elektrikle çalışan ampuller de
+giderek yaygınlaşıyordu ve elektrikli
+ampuller hem daha karlı olmalarından
+ötürü hem de yeni bir araştırma sahası
+yaratmalarından ötürü birçok fizikçinin
+ilgisini çekiyordu. Fizikçilerin önünde
+çözülmesi gereken bir dolu yeni soru
+vardı. Elektrikli ampulü nasıl
+geliştirebiliriz? nasıl daha verimli
+hale getirebiliriz? Nasıl daha ucuza mal
+edebiliriz ki daha çok yerde
+kullanılabilsin? Nasıl daha az
+elektrikle daha çok ışık yaymasını
+sağlayabiliriz? Tüm bu sorular
+silsilesinin temelinde ise aslında çok
+daha temel olan bir diğer soru
+yatıyordu. Bir malzemenin farklı
+sıcaklıklardan ne tür bir ışık
+saçacağını belirleyen şey ne? Bakın,
+günümüzdeki ampul kutularının üzerinde
+3500K veya 6500K gibi sayılar
+yazıldığını illaki görmüşsünüzdür. O K
+harfinin ne anlama geldiğini hiç
+düşündünüz mü? Oradaki K harfi o az önce
+bahsettiğim Lord Kelvin'den geliyor.
+Liseden de hatırlıyor olabileceğiniz
+gibi Kelvin tıpkı santigrat gibi bir
+sıcaklık birimi. Ve mesela ampulün
+üstünde yazan o 6500 Kelvin öyle az buz
+değil. neredeyse 6200 S dereceye
+karşılık geliyor. Ama bu ampulün gerçek
+sıcaklığı değil. Filamentli lambaların
+içindeki o ince tel üzerinden akım
+geçmeye zorlandığında gerçekten de 2700
+S D veya 3.000 kelvin civarı bir
+sıcaklığa çıkıyor ve akkor hale geçerek
+etrafa ışık saçıyor saçmasına. Ama
+eriştiği bu gerçek sıcaklık yerine 6500
+Kelvin yazma nedenimiz aslında bir çeşit
+standardizasyon. Gerçek hayattaki ampul
+gibi kusurlu cisimler arasındaki
+farkları normalize etmek için onları
+kara cisim dediğimiz ve detaylarını
+birazdan göreceğimiz idealize edilmiş
+bir cismin o rengi vermek için ne
+sıcaklıkta yanması gerektiğini
+belirliyoruz. Ve kromosite dediğimiz bir
+renk sıcaklığı hesabı yaparak 6500
+Kelvin gibi daha yüksek bir sayıya
+ulaşıyoruz. Şimdilik bu
+standardizasyonun detayları çok önemli
+değil. Önemli olansa şu: ısınan
+cisimlerin parladığı gerçeği o dönem
+yeni keşfedilen bir şey değildi. Bu
+nalbantların veya metal işçilerinin
+asırlardır zaten gözlediği bir olguydu.
+Eğer bir demiri alıp ısıtmaya başlayacak
+olursanız önce koyu kırmızı tonlarda
+sönük bir şekilde parlamaya başladığını
+görüyorsunuz. Daha da ısınırsa sobalarda
+da gördüğümüz gibi kıp kırmızı oluyor.
+Eğer daha da ısıtacak olursanız önce
+turunculaşıyor sonra sarılaşıyor.
+Eriyecek kıvama geldiğinde ise bayağı
+bayağı beyaz bir şekilde parlıyor. Yani
+ışık saçıyor. Yani sıcaklıkla ışık
+arasında bir ilişki olduğu antik
+çağlardan beri biliniyor. İyi de ne
+alaka? Isınan bir cisim neden ışık
+saçsın ki? İşte o dönem bunu kimse tam
+olarak bilmiyordu. Bu pürüz gidermek
+isteyen fizikçiler farklı materyalleri
+alıp farklı sıcaklıklara kadar ısıtmaya
+başladılar ve o noktada çok kritik olan
+bir gözlem yaptılar. Isıttıkları malzeme
+her ne olursa olsun, özellikle de 500 S
+derecenin ötesine ısıttıklarında hepsi
+farklı şiddetlerde ama neredeyse aynı
+şekilde ışık saçıyordu. Saçılan ışığın
+dalga boyları açısından ısıtılan
+malzemenin ne olduğu önemsizdi. Bu keşif
+sayesinde malzemeye bağlı olmayan şöyle
+bir grafik çıkarmayı başardılar. Bu
+grafikte yatayda farklı dalga boyları,
+düşeyde ise parlama veya parlaklık
+anlamında kullanılan spektral irradyans
+dediğimiz bir yüzeyin birim alanı başına
+aldığı farklı dalga boylarındaki
+radyasyon akısını gösteren bir terim
+var. Siz bu irradyansı biraz
+basitleştirerek her bir dalga boyunda
+saçılan ışığın miktarı gibi
+düşünebilirsiniz. Grafikte asıl önemli
+olansa şu. Hiçbir malzeme tek bir dalga
+boyunda. İşte atıyorum sadece 12.000
+nanometre dalga boyunda ışık saçmıyor.
+Bakın sadece birkaç yüz nanometreden on
+binlerce nanometreye kadar olan dev bir
+aralıkta ama farklı miktarlarda ışık
+saçıyor. O nedenle grafiğin hemen her
+noktasında farklı bir y değeri yani
+farklı bir miktar var ve grafiğin bir
+tepe noktası var. Mesela bu grafikteki
+madde 500 dereceye ısıtıldığında 4.000
+nanometre civarındaki ışıktan en fazla
+miktarda saçıyor. Atıyorum 16.000 veya
+2000 nanometredeki dalga boylarındaysa
+çok daha az ışık saçıyor. Ve unutmayın
+biz ışık dediğimizde genellikle
+elektromanyetik spektrumun gözümüz
+tarafından tespit edilip beynimiz
+tarafından algılanabilen bu grafikte
+daracık bir şeritle gösterilen şu 380
+ila 750 nanometrelik kısmını
+kastediyoruz. Ama aslında
+elektromanyetik spektrum bu grafikte de
+görebildiğiniz gibi bizim
+görebildiğimizin çok ama çok ötesine
+uzanıyor ve birçok cismin saçtığı
+radyasyonu veya ışığı biz göremiyoruz.
+Zaten o nedenle gözümüzün tespit
+edemediği dalgaları tespit etmek için
+kızıl ötesi kameralar veya mor ötesi
+sensörler kullanıyoruz. Ve bu grafiğe
+tekrar bakacak olursanız gündelik
+deneyiminizden de bileceğiniz üzere
+mesela demir gibi bir malzeme sadece 500
+S dereceye çıkarıldığında çok sıcak
+oluyor ama henüz gözümüzün görebildiği
+aralıkta bir ışık saçmıyor yani
+parlamıyor. Dolayısıyla dışarıdan
+baktığımızda da henüz akkor olduğunu
+görmüyoruz. Ama ne zamanki sıcaklığı
+daha da arttırıp 1000100 derecelere
+çıkarıyoruz. İşte o zaman bu grafik hem
+sola yani daha düşük dalga boylarına
+veya daha yüksek frekanslara hem de
+yukarı yani hemen her dalga boyunda daha
+güçlü ışımaya doğru kayarak nihayetinde
+gözümüzle görebildiğimiz aralığa
+ulaşıyor. İşte bu çok ilginç. Isıtılan
+cisimlerin saçtığı ışığın pik noktası
+mor ötesine doğru kayıyor ve saçtıkları
+ışık miktarı giderek artıyor. İşte
+malzemelerin bu davranışını çok basit
+bir matematiksel eşitliğe çevirmeyi
+başaran ilk kişi Alman fizikçi Wilhelm
+Vien oldu. Burada B Vienin keşfettiği
+yaklaşık
+2898 mikrometre Kelvin değerinde bir
+sabit. Ama daha önemlisi formülü farklı
+sıcaklıklarda grafiğe döktüğümüzde de
+görebileceğimiz üzere bu formül sıcaklık
+arttıkça cismin saçtığı radyasyon
+spektrumunun pik noktasının daha kısa
+dalga boylarına kaydığını ve şiddetinin
+giderek arttığını başarıyla tarif
+edebiliyor. PN yasası olarak bilinen bu
+basit keşif bile o kadar fazla fiziksel
+olguyu izah ediyor ki mesela parlaklığı
+ayarlanabilir bir lambanız varsa ışığı
+kıstığınızda odanın aynı zamanda hafif
+kırmızımsı bir tona döndüğünü
+görebilirsiniz. Bunun sebebi işte bu
+Vien yasası veya bir kamp ateşi
+yaktığınızda ateşin sizi sıcacık yapacak
+kadar kor olmasına rağmen etrafı doğru
+düzgün aydınlatmadığını fark etmiş
+olabilirsiniz. İşte bunun sebebi de 1200
+küsür derecede yanan odunun saçlığı
+radyasyonun %98 kadarının 1000
+nanometreden uzun olan kızıl ötesi dalga
+boylarında olması. Kızıl ötesi radyasyon
+cisimleri ısıtmak konusunda harika ama
+kamp ateşi 380 ilile 750 nanometre
+arasındaki görünür dalga boyunda çok az
+ışık saçtığından etrafı doğru düzgün
+aydınlatamıyor. Yani bu da vien yasası.
+Güneşimizi biz atmosferdeki kırının
+nedeniyle sarımsı görüyoruz. Ama uzaydan
+güneşe direkt olarak bakabilecek
+olsaydınız aslında çok daha beyaz bir
+renkte olduğunu görürdünüz. Bunun sebebi
+güneşin efektif sıcaklığının
+5778 Kelvin olması. Dolayısıyla Vien
+yasasına göre peck radyasyonu 500 nanom
+civarında. Yani gözle görünür dalga
+boyunun tam ortasında. Dolayısıyla hemen
+her rengi eşit olarak saçıyor. Biz de
+onu doğal olarak beyaz olarak görüyoruz.
+Yalnız buradaki neden sonuç ilişkisini
+yanlış kurmayın ha. Güneş biz onu
+görebilelim diye doğru frekansta ışık
+saçmıyor. Güneş bizi ne bilsin? Daha
+ziyade insan da dahil bütün hayvan
+türlerinin ataları milyarlarca yıldır bu
+güneşin ışığı altında evrimleşti.
+Dolayısıyla gözleri de onun en fazla
+saçtığı dalga boyuna duyarlı olacak
+biçimde evrimleşti. Yani oralarda bir
+yerlerde diğer yıldızların etrafında
+evrimleşmiş başka canlılar varsa
+muhtemelen onların gözleri de kendi
+yıldızlarının en çok saçtığı ışığa
+özelleşmiş olacak. Bakın bunu bir başka
+örnek üzerinden harika bir şekilde
+görebiliyoruz. Vücut sıcaklığı değil ama
+deri sıcaklığı 27 derece veya 300 kelvin
+civarında olan küçük memeli hayvanların
+derisinin etrafa saçtığı ışığın pik
+yaptığı nokta Vien yasasına göre 10
+mikron civarında. Tesadüfe bakın ki bu
+küçük memelileri avlayan çıngıraklı
+yılanların gözlerinin algılamak
+konusunda özelleştiği aralıkta tam
+olarak 10 mikron civarında. Yani evrimin
+içinde bile VN yasası var. Ve son olarak
+tabii ki ampullerin renginin de
+Kelvin'le belirtilmesi tam olarak
+bundan. 1000 kelvinlik düşük
+sıcaklıktaki bir akkor lamba son derece
+kırmızımsı bir renge sahipken, oturma
+odalarında tercih edilen 3000 4.000
+kelvin daha sarımsı, hastanelerde ve
+kütüphanelerde tercih edilen 6500 kelvin
+ve üzeri ise çok daha beyaz bir renge
+sahip. Yani gündelik hayatta ateşin
+kırmızı, suyunsa mavi olmasından ötürü
+psikolojik olarak sıcağı kırmızıyla,
+soğuğu maviyile ilişkilendirmemiz sizi
+yanıltmasın. Gerçekte mavi ışıldayan bir
+cisim, kırmızı ışıldayan bir cisimden
+çok daha sıcak. O nedenle tüplerin
+turuncumsu yanması daha düşük
+verimlilikte bir yanmaya, mavi yanması
+ise daha yüksek verimlilikte bir yanmaya
+karşılık geliyor. Görüyor musunuz? Vien
+yasası her yerde. Bu arada yasa yasa
+diyorum ama bu tıpkı Newton'ın kütle
+çekim yasası gibi özünde hatalı bir
+isimlendirme. O dönemlerde yapılan bir
+gözlemi matematiksel olarak
+açıklayabilen her izaha yasa deniyordu.
+Günümüzde ise yasalar olgulara yönelik
+tekrar eden gözlemlerimize verdiğimiz
+bir isim. O olguları veya doğa
+yasalarını matematiksel veya rasyonel
+olarak izah eden çürütme çabalarını
+başarıyla atlatabilmiş açıklamalara
+günümüzde teori diyoruz. Vien'in
+matematiksel izahı da aslında onun
+gözlediği fiziksel bir yasaya yani
+sıcaklıkla dalga boyu arasındaki
+ilişkiye yönelik yaptığı iyi test
+edilmiş bir açıklamaydı. Yani bir
+teoriydi ve her teori gibi bunun da
+henüz açıklayamadığı bazı konular vardı.
+Mesela Vienin teorisi kara cisim
+yakınsamasıyla birleştirildiğinde cismin
+özellikle de kısa dalga boylarındaki
+yani deneysel bulgulardan elde edilen
+grafiğin bu tarafındaki davranışı
+kusursuz bir şekilde izah edebiliyordu.
+Ama uzun dalga boylarına gittikçe ne
+yapılırsa yapılsın Vienin teorisi
+deneysel bulgulardan sapmaya başlıyordu.
+Yani ortada bir hata, bir eksik, bir
+pürüz vardı.
+O nedenle iki önemli fizikçi Lord Riley
+ve James Jeans alternatif bir teori
+geliştirdiler. Ve bu teoride video
+başından beri karşımıza çıkan bu kara
+cisim dediğimiz hipotetik cismi merkeze
+koydular. Kare cisim üzerine düşen ışığı
+ve ısıyı kusursuz bir şekilde emen,
+kendi sıcaklığıyla ilişkili dalga
+boylarındaki radyasyonuysa kusursuz bir
+şekilde etrafa yayan hipotetik ve ideal
+bir cisim. Anlayacağınız gerçekte kara
+cisim diye bir şey yok. Çünkü evrende
+ideal veya kusursuz gibi şeyler yoklar.
+Ama yine de olgu ve süreçlerin bu
+kusursuz versiyonlarını teorik fizik
+açısından anlamak çok önemli. Çünkü
+bunların teorisini matematiksel olarak
+çözdüğümüzde pratikteki cisimlerin o
+kusursuzluktan sapmalarını da tarif
+edebilmeye başlıyoruz. Bilim kusursuz
+olan matematiğin yardımıyla kusurlu olan
+evreni işte tam olarak bu şekilde izah
+ediyor. Ve gerçekten de evrene
+baktığımızda bir kara cisme fazlasıyla
+yakın sayan bir dolu senaryo
+bulabiliyoruz. Bunlardan biri o az önce
+bahsettiğim James Jeans tarafından
+kurgulandığı için jeans kutusu olarak
+bilinen bir kenarında ufacık bir delik
+açılmış olan, içi ise tamamen yalıtılmış
+olan bir kutu. Bakın deliğin üzerine
+direkt olarak bir fener tutsak bile
+resmen bir kara delik gibi simsiyah
+gözüküyor. Şöyle düşünün. O ufacık
+delikten giren ışık her ne renkte ve
+tipte olursa olsun kutu içinde durmadan
+bir o yana bir bu yana sekiyor ve
+duvarlar tarafından hızla emiliyor. Ama
+belki de çok ufak bir yüzdesi hariç bu
+ışık o kutudan asla kaçamıyor. Öte
+yandan bu kutunun içinin de diğer her
+cisim gibi belli bir enerjisi var. Ve bu
+enerji dolayısıyla aynı zamanda bir de
+sıcaklığı var. Ve eğer ki bir kızıl
+ötesi termometreyle o deliğin
+sıcaklığını ölçüyor olsaydık, o ufacık
+delikten o iç sıcaklığına karşılık gelen
+dalga boylarında enerji saçtığını
+görebilirdik. Ama dikkat edin bu saçılan
+ışık kutuya giren ışığın direkt olarak
+dışarı yansıması değil. Daha ziyade
+kutuya düşen bütün enerjilerin ve kendi
+iç enerjisinin toplamından ötürü sahip
+olduğu sıcaklığın sebep olduğu ısıl
+radyasyon veya termal ışıma. Ve tabii ki
+bu ışıma da az önce konuştuğumuz VN
+yasasına tabi. Kutunun içi 500 dereceden
+soğuksa görünür dalga boylarında hiçbir
+ışık saçmıyor. Dolayısıyla deliğe
+baktığımızda simsiyah görüyoruz. Yok.
+Eğer kutunun içi 600700 derece
+civarındaysa donuk kırmızı bir ışık
+saçıyor. 1000 dereceyi açtığında
+turuncumsu bir ışık saçıyor. Binlerce
+dereceye çıktığında maviye ve
+nihayetinde beyaza dönüyor. Ve kutunun
+saçtığı bu ışığı da ölçtüğümüzde az önce
+o Vien yasasında gördüğümüz grafiği elde
+ediyoruz. Bu arada kara cisim olarak
+modelleyebildiğimiz tek şey bu tarz işe
+yaramaz gibi gözüken delikli kutular
+değiller. Mesela güneşimiz gibi
+yıldızlar da birer kara cisim gibi
+davranıyorlar. Çünkü onlar da üzerlerine
+düşen enerjinin pratik olarak tamamını
+emiyorlar ve etrafa sadece
+sıcaklıklarıyla orantılı bir ışıma
+saçıyorlar. Yani kara cismin ismindeki o
+kara sözcüğüne aldanmayın. Olayın
+siyahlıkla hiçbir ilgisi yok. Kara
+cisimler belli bir sıcaklıktan sonra hiç
+de siyah gözükmüyorlar. Ama evet evrende
+bir kara cisme en çok benzeyen şeylerden
+biri kara delikler. Sadece yıldızlar ve
+kara delikler de değil. Evrenin tamamını
+dolduran ve büyük patlamadan 380.000
+1000 yıl sonra serbestleşen ilk ışık
+olan kozmik mikralga artan ışıması da
+bugüne kadar keşfettiğimiz kara cisme en
+yakın davranan şey. Yani evrende
+kusursuz bir kara cisim olmayan ama kara
+cisim gibi davranan bir dolu nesne ve
+olgu var. Her neyse. Kara cisimlerle
+ilgili olarak hikayemiz açısından önemli
+olan şeyse şu. Bir kara cismin içine
+düşen dalgalar o kutudan çıkamıyor
+olsalar da kutunun duvarlarıyla ve
+duvarlarındaki elektronlarla etkileşerek
+durmadan yansıyorlar. Bu birbiri içine
+geçen çok sayıda dalga ve dolayısıyla
+resmen bir elektromanyetik dalga cümbüşü
+yaratıyor. Çift yarık deneyi videosunda
+da konuştuğumuz üzere dalgaların
+tepeleri üst üste bindiğinde
+birbirlerini güçlendiriyorlar. Bir
+tepeyle bir çukur üst üste bindiğinde
+ise birbirlerini sönümlüyorlar. Yani
+orada sanki hiç dalga yokmuş gibi
+oluyor. İşte kutumuz içindeki
+elektromanyetik dalga cümbüşünü yaratan
+dalgaların hepsini bu şekilde
+toplarsanız ortaya çok ilginç bir sonuç
+çıkıyor. Bazı noktalarda dalgaların
+tepeleri ve çukurları üst üste binip
+node veya düğüm dediğimiz o durgun
+noktaları oluşturuyor. Diğer yerlerde
+ise bir yukarı bir aşağı zıplayan antode
+dediğimiz hareketli bölgeleri
+oluşturuyor. Bakın bunu basit bir iple
+kendi evinizde de görebilirsiniz. Eğer
+ip boyunca tek bir dalga gönderirseniz
+dalga ip boyunca boydan boya yayılıyor.
+Karşıda sabit tutulan taraftan sekiyor
+ve sürtünme nedeniyle zamanla
+sönümleniyor. Ama tek seferlik değil de
+sabit bir frekansta sürekli dalga
+göndermeye devam ederseniz sizin
+gönderdiğinizle karşı taraftan yansıyıp
+geri gelen dalga üst üste binerek ortada
+girişim yapıyor ve sağa sola hareket
+eden değil de olduğu yerde durup yukarı
+aşağı salınıyormuş gibi gözüken tek bir
+dalga oluşturuyor. İşte bu tip girişim
+dalgalarına standing wave veya
+stationary wave yani duran dalga
+diyoruz. Çünkü aşina olduğumuz deniz
+dalgalarının aksine bunlar oldukları
+yerde duruyor gibi gözüküyorlar. Ve o
+basit ip modelimizde frekansı
+arttırırsanız bu defa ipin diğer
+ucundaki durgun noktaya ek olarak
+ortasında da yeni nodlar oluşmaya
+başladığını görüyorsunuz. Aynı şey iki
+boyutlu yüzeylerde de aynen yaşanıyor.
+Bunu görmek içinse Alman fizikçi ve
+müzisyen Ern Cludne'nin geliştirdiği
+Cludne levhasından faydalanıyoruz. Bu
+levhanın üzerine bir miktar kum döküp
+sonrasında ortasından değişen
+frekanslarda titreşimler uyguladığımızda
+bu titreşimlerden yayılan dalgalar plaka
+boyunca yayılıyor, kenarlardan yansıyor
+ve diğer dalgalarla girişim yapıyor.
+Tıpkı ip üzerinde olduğu gibi. Ama
+buradaki dalgalar ipteki gibi tek bir
+boyutta değil de hem en hem boy boyunca
+yayıldıkları için nodlar da ipteki gibi
+tek bir noktada oluşmuyorlar. Daha
+ziyade çizgiler ve eğriler gibi
+uzunlamasına hatlar boyunca oluşuyorlar.
+Ve bu sırada da frekansa bağlı olarak
+değişen birbirinden harika örüntüler
+yaratıyorlar. Dikkat edin o eğriler
+plakanın üzerinde titreşimin pratik
+olarak hiç olmadığı yerler. Yani
+nordlar, oralar. Geri kalan bölgelerde
+ise çok ciddi bir titreşim var. O
+nedenle titreşimlerin olduğu yerlerde o
+kum tanecikleri oldukları yerde
+duramıyorlar ve hareketsiz olan nodlar
+üzerinde birikip o desenleri
+oluşturuyorlar. Muhteşem. Öyle değil mi?
+Ama işte bu sadece havalı bir
+gösterimden ibaret değil. Riley ve Jeans
+elektromanyetik dalgalarında işte bu
+dalgalarla birebir aynı şekilde
+davrandığı gerçeğinden yola çıkarak
+jeans kutusu içinde yansıyan dalgaların
+tamamını ve bunların yaptıkları
+karmakarışık girişim desenlerini tarif
+eden matematiksel bir denklem çıkarmayı
+başardılar. Sonrasında bunu Boltman'ın
+geliştirdiği entropi teorisi ile
+birleştirerek standart bir jeans kutusu
+içinde kaç farklı dalga ve girişim
+tipinin olabileceğini hesaplamayı
+başardılar. Burada tüm bunların
+matematiğine girmeyeceğim ama bu zorlu
+çaba sonucunda tıpkı Vien yasası gibi
+bugün Rily Jeans yasası dediğimiz bir
+diğer izahı geliştirmeyi başardılar.
+HeyH bu yasanın veya daha doğru
+tabiriyle teorinin de bir sorunu vardı.
+Vien yasasının aksine bu teori uzun
+dalga boylarında olan biteni deneysel
+verilerle kusursuz bir şekilde örtüşen
+bir biçimde izah edebiliyordu. Ama bu
+defa da kısa dalga boylarına
+geldiğimizde deneysel bulgulardan
+muazzam miktarda sapıyordu. Hatta sapma
+miktarı öylesine büyüktü ki teorinin
+öngördüğüne göre 1500 dereceye ısıtılan
+bir cismin 4.000 nanometrenin altında
+kalan mesela mor ötesi ışınlardaki
+radyasyon miktarı sonsuz olmalıydı.
+Evet, sonsuz. Bu nalburların ısıttığı
+her bir demirin veya mutfaklarda yakılan
+her bir ocağın saçtıkları ultraviyole ve
+X ışınlarıyla hepimizi anında öldürmesi
+demekti. Söylemeye gerek yok ama
+gerçekteyse böyle bir şey gözlenmiyordu.
+Tahmin edebileceğiniz gibi bu fizik
+camiasında bir şok etkisi yarattı.
+Isıtılan cisimlerin saçtığı ışığın
+frekansları bağımsız deneyicilerce
+yüzlerce kez doğrulandığı için teoride
+bir hata olmalıydı. Ama teorinin hatalı
+olması için de ya Riley ve Jeans'in
+yaptığı işlemlerde bir hata olmalıydı ya
+da artık hepsini çözdük dediğimiz
+fiziğin parçalarından biri veya birkaçı
+hatalı olmalıydı. Fizikçiler tabii ki
+ilk olarak teorinin matematiğini tekrar
+tekrar gözden geçirmeyi seçtiler.
+Elektromanyetizma, termodinamik, entropi
+hepsi kusursuz bir şekilde bir araya
+getirilmişti. Hiçbir hata yoktu. Heck
+Rubens ve Ferdinand Coolbound gibi
+fizikçiler çok hassas ölçümler yaparak
+iki teoriyi de bir arada sınadılar ve
+iki teorinin de bir cismin saçtığı
+ışığın bütün dalga boylarındaki
+şiddetini bir bütün olarak izah
+edemediğini doğruladılar. Yani bilim
+insanlarının elinde birbirine oturmayan
+iki yapboz parçası vardı. Bu fizik için
+müthiş bir utanç kaynağıydı ve işte bu
+kriz tarihe meşhur bir şekilde
+ultraviolet catastrophey yani mor ötesi
+felaket olarak geçti. Anlayacağınız bu
+oyunu bozacak, bu pürüzü giderecek bir
+deha gerekiyordu. İşte burada hocasının
+uyarısına aldırış etmeyen Plank'ın
+öyküsüne geri dönmemiz gerekecek.
+Tüm bunlar yaşanırken 42 yaşına basmış
+olan Plank, tıpkı anne babası gibi
+oldukça klasik bir insan ve oldukça
+geleneksel bir fizikçi olarak yoluna
+devam ediyordu. Doğası gereği radikal
+bir kişilik değildi. Klasik fiziğe
+fazlasıyla biat ediyordu ama bir yandan
+da fiziğin içine düştüğü bu yeni kriz
+onu müthiş bir şekilde rahatsız
+ediyordu. O nedenle bu problemi çözmeyi
+kafaya taktı ve yıllarca uğraştı. Ama
+çözümü bir türlü bulamadı. Bir sürü
+yöntem ve farklı yaklaşım denedi. Ama
+hiçbiri çalışmıyordu. Bu çıkmaz onu deli
+ediyordu. Fiziği tamamlamasını
+sağlayacak son bir hamleye ihtiyacı
+vardı ama onu bir türlü bulamıyordu. Bir
+noktada öylesine çaresizliğe düştü ki
+artık fizik yasalarına dair doğru
+bildiği her ne varsa feda etmeye hazır
+hale gelmişti. Ve 1900 yılının Ekim
+ayında Heinrik Rubens ile bir çay
+sohbeti sırasında onun en güncel
+ölçümlerini beraberce gözden geçirirken
+aklında bir ampul çaktı. Belki de
+yapması gereken tam olarak buydu.
+Fiziğin temellerini çöpe atmayı göze
+alabilmeliydi ve gerçekten de öyle
+yaptı. tarihe Plank'ın kendi sözleriyle
+bir act of desperation yani bir
+çaresizlik hamlesi olarak geçen
+olağanüstü bir karar alıp enerjinin
+herkesin sandığı gibi süre bir büyüklük
+olmayabileceği fikrini ileri sürdü.
+Bunun ne demek olduğunu anlamak için o
+kara cismi hatırlayın. Bu cismin saçtığı
+ışığı tarif ederken kullandığımız
+varsayımlardan birisi bir sayı doğrusu
+üzerine yerleştirilebilecek bütün reel
+sayılara karşılık gelen her bir dalga
+boyundaki elektromanyetik dalgaların var
+olduğu ve birbiriyle etkileşebildiği
+fikriydi. Matematikten anlayanlar için
+bu bir nevi integral almak demekti.
+Çünkü klasik mekaniğe göre bir dalganın
+enerjisi o dalganın genliğiyle yani
+büyüklüğüyle orantılıydı. Ne kadar
+enerjik bir dalga. O kadar büyük bir
+genlik. Ama tahmin edebileceğiniz gibi
+genlik veya şiddet dediğimiz şey son
+derece keyfi bir değer. Yani 0 la sonsuz
+veya eksi sonsuz arasındaki herhangi bir
+değeri alabiliyor. Dolayısıyla klasik
+fiziğe göre kara cismin duvarlarındaki
+elektronlar da üzerlerine düşen
+dalgaların enerjisine bağlı olarak
+herhangi bir enerjide elektromanyetik
+dalga yayabiliyordu. En azından o
+zamanlar düşünülen tam olarak buydu.
+Fakat Plank problemi hiçbir şekilde
+çözemediği için tamamen keyfi bir karar
+alarak enerjinin süreyen olmadığını
+sadece belli değerlerde olabileceğini
+varsaymaya karar verdi. Yani enerji
+çağının klasik fiziğine göre koskoca bir
+sayı doğrusu üzerinde 1 ya da 1.8 ya da
+1.837 21023 gibi tuhaf bir sayı
+olabilecekken plank hayır dedi. Sadece 1
+2 3 4 gibi belli değerler de olabilsin
+dedi. Bir diğer deyişle ortada hiçbir
+iyi gerekçe olmamasına rağmen sırf bir
+deneme yapabilmek adına matematiği
+süreyen halden kesikli veya kesintili
+hale getirdi. Yine matematikten
+anlayanlar için bu integral yerine
+toplama işlemi yapmak demek. Bunu
+yaptığında bir dalganın enerjisini
+genliğinin büyüklüğü ile ilişkili
+olmaktan çıkartıp doğrudan doğruya dalga
+boyunun veya onun geometrik tersi olan
+frekansının bir ölçütü olarak
+tanımlayabildi. E = N x F. Buradaki N 1
+2 3 4 gibi bir tam sayı. F ise frekans
+yani plank enerji frekansla doğru
+orantılı olarak artmalı dedi. Ama bu bir
+sorun yarattı. Enerjinin birimi joule
+gibi bir birim. Frekansın birimi ise
+1/sani gibi bir birim. Bunlar birbirine
+eş olamaz. Dolayısıyla bunları birbirine
+dönüştürecek bir diğer sabite ihtiyacı
+vardı. Buna H adını verdi ve formülünü
+güncelledi. E = N x H x F. Ama bu
+öylesine bir yöntemdi ki o H'nin
+ne olduğunu daha bilmiyordu bile. Öyle
+düşünün. H'yi hesaplayabilmek için
+geliştirdiği bu yeni formülü VN ve
+diğerlerinin ortaya koyduğu deneysel
+sonuçlara uydurması gerekiyordu.
+Dolayısıyla bir dolu deneme yaparak
+kendi formülünün verdiği grafiği
+deneysel bulgulardan elde edilen grafiğe
+tam olarak oturtmaya çalıştı. Bunu
+yaptığında elde ettiği grafiğe karşılık
+gelen H değeri ise fizik severlerin çok
+iyi bileceği o meşhur sayıydı. 6.626 626
+x 10 üzeri -34 jou sani bugün bu sabite
+plank sabiti diyoruz. İşte bu ya
+olağanüstü bir öngörü ya da olağanüstü
+bir tesadüf. Hangisi bilemiyoruz çünkü
+Max Plank'ın ne oldu da böylesi büyük
+bir sıçramayı yapmaya cürret ettiğine
+dair ipuçları arayan bilim tarihçileri
+Plank'ın keşfin olağanüstülüğünü ilk
+etapta fark etmemiş olabileceği sonucuna
+vardılar. İşin o taraflarına bugün
+girmeyeceğim. ilerleyen videolarda
+konuşuruz. Ama Plank'ın bu tamamen
+dayanaksız olan sıçramasının neden işe
+yaradığını hiç olmazsa sağduyusal olarak
+anlayabilmeniz için size son olarak bir
+de şu grafiği göstereyim. Bakın, plankın
+kesintili yaklaşımında termal denge
+halindeki bir cismi oluşturan
+trilyonlarca atomun enerjisi de atomdan
+atoma değişecek. Yani kesintili olacak
+ve az çok böyle dağılacak. Öyle değil
+mi? Yani bazı atomlar düşük enerjili
+olacak, bazıları aşırı enerjik olacak
+ama çoğu ortalama bir enerjiye sahip
+olacak. Düşük enerjili azınlık aşağıda,
+yüksek enerjili azınlık yukarıda. Bu
+dağılımda atom başına düşen enerjiyi
+çizecek olursak da ortaya şöyle bir
+grafik çıkıyor. Dediğim gibi yüksek
+dalga boylarına veya düşük frekanslara
+karşılık gelen ışık saçan atomların
+birin başına düşen enerjisi de çok
+düşük. daha ortalama dalga boylarına
+karşılık gelen radyasyonu saçan yani
+daha ortalama enerjilere sahip atomlara
+gittikçe ise 1in başına düşen enerji de
+git gide artıyor. En düşük dalga boylu
+yani en yüksek frekanslı ışık saçımına
+denk gelen atomlarınsa atom başına düşen
+enerjisi çok yüksek. İşte E = H x F
+özünde bunu anlatıyor. Yani soldaki
+dağılım bir atomun iç enerjisi kaç jou
+olabilir sorusuna büyük istatistiksel
+fizikçi Boltman'ın verdiği ve Plank'ın
+ondan ödünç aldığı cevabı gösteriyor.
+Sağdaki eğri ise bir fotonun enerjisi
+dalga boyuna göre nasıl değişir sorusuna
+Plank'ın verdiği orijinal cevap. Peki bu
+Vien ve Riley Jeans'in tutturamadığı
+deneysel bulgularla nasıl oluyor da
+örtüşüyor? Bunu anlamak için bunların
+yanına şimdi bir de Rily Jeans'in o mor
+ötesi felaketinin grafiğini getirelim.
+Yüksek dalga boylarındaki yani düşük
+enerjilerdeki ışığı saçmak için gereken
+enerji de haliyle düşük. E böylesi bir
+dağılımda o dalga boyuna karşılık gelen
+ışığı saçabilecek yığınla atom var.
+Dolayısıyla orta enerji seviyelerine de
+deneyle rily jeans teorisi kusursuz bir
+şekilde örtüşebiliyor. Ama onların
+teorisinde daha düşük dalga boylarına
+yani daha yüksek frekanslara doğru
+gidildiğinde üretilen enerji de sonsuza
+dek artıyor. Hatırlayın sorun da zaten
+buydu. Benzer şekilde plankın teorisinde
+de orta dalga boylarına yani orta
+enerjilere doğru gidildiğinde o enerjiye
+sahip çok sayıda atom olduğu için tıpkı
+Rily Jeans'in ve Vien'in teorisinin
+öngördüğü gibi ışıma miktarı da giderek
+artıyor. Ama işte daha da yüksek
+enerjilere gittiğimizde Rily Jeans'in
+teorisinden farklı olarak Plk'ın
+teorisinde atomların sayısı tekrardan
+azalmaya başladığı için o yüksek
+enerjili ışımaları yapabilecek yeterli
+sayıda atomda kalmıyor ve grafik
+tekrardan çakılmaya başlıyor. Tam da
+deneylerin gösterdiği gibi işte deneyle
+teori kusursuz bir şekilde örtüştü ve
+bunu sağlayan şey aslında en başta
+sorduğumuz sorunun da cevabı. Hatırlayın
+Lord Kelvin'in bahsettiği pürüzlerden
+biri özünde ısı nasıl yayılıyor
+sorusuydu. Plank o soruya nihai cevabı
+verdi. Isı gibi enerji türleri klasik
+fiziğin öngördüğü gibi süreyen bir
+şekilde dağılmıyor. Atomların enerjisine
+bağlı olarak paketler halinde kesintili
+bir şekilde yayılıyorlar. Ve işte o
+paketlere 16. yüzyıl Latincesinde miktar
+anlamına gelen çok özel bir isim
+veriyoruz.
+Kuantum. İşte böyle. Bu bence gerçekten
+muhteşem bir hikaye. Çünkü içinde her
+şey var. Azim var, kararlılık var, dik
+başlılık var, şans ve tesadüf var. E
+birazcık altını eşeleseniz aşk, entrika
+ve ihtiraslar bile çıkar mı bilmem ama
+şu kadarını söyleyeyim. Plank'ın açtığı
+bu ortayı adeta göğsünde yumuşatarak
+Plank'ın yapabildiğinden bile daha
+başarılı bir şekilde anlamlandırmayı
+başaran Albert Einstein, ondan sadece
+birkaç yıl sonra bu kuantum fikrini
+kullanarak ışığın kendisinin de süreyen
+olmadığını, foton denen paketçiklerle
+yayıldığını ileri sürdü. Yani plankın
+sandığı gibi sadece enerjinin değil
+dalgaların da kesintili olduğu sonucuna
+vardı. Bu farkındalık fotoelektrik etki
+dediğimiz güneş panellerini de mümkün
+kılan o müthiş olguyu ortaya çıkardı ve
+Einstein 1905'teki bu çalışmasıyla Nobel
+Fizik Ödülüne layık görüldü ve işte
+Einstein'ın punk'ın açtığı bu ortayla
+attığı bu müthiş gol bugün kuantum
+fiziği olarak bildiğimiz o muhteşem
+sahanın başlangıcı oldu. Bu sayede bugün
+dolanıklık, çift yarık deneyi, atomların
+etrafındaki elektronların enerji
+seviyeleri, kuantum dalga fonksiyonları
+ve kuantum süperpozisyon gibi olguları
+keşfetmeye ve anlamlandırabilmeye
+başladık. Kuantum biyoloji ve kuantum
+bilgisayarlar gibi pratik sahalar da
+işte bunlar üzerine inşa ediliyorlar. Ve
+bunların hepsi de karşılaştığı bir
+sorunu çözmeden duramayan Max Plank
+sayesinde
+oldu. Yalnız bir acayiplik var. Plank
+sabitinin birimi Jul saniye dedik ama
+lise fiziğini hatırlıyorsanız bu pek de
+anlamlı bir birim değil. Yani eğer ki
+jou/ olsaydı bildiğimiz watt olurdu.
+Yani güç birimi. Ama bu joule çarp
+saniye ne demek? Yani bu H sabiti
+teoriyi deneye oturtmamızı sağlıyor
+sağlamasını. Ama bu sabitin anlamı ne?
+İşte bu bir başka videonun konusu
+olacak. Eğer bu videoları kaçırmak
+istemezseniz kanal bildirimlerini şimdi
+açmayı unutmayın. Ve sanırım bu videoyu
+Plank'ın o dönem kuantum fiziğine
+kuşkuyla yaklaşanlar için sarf ettiği şu
+ölümsüz sözleriyle kapatmak en doğrusu
+olacak. Yeni bir bilimsel gerçek
+karşıtlarını kendisinin doğruluğuna ikna
+ederek zafere ulaşmaz. Daha ziyade bu
+karşıtlar nihayetinde ölürler ve yeni
+nesil bu yeni gerçeklere aşina bir
+şekilde büyürler. Eğer bu videoyu
+beğendiyseniz gölgemizin hızının nasıl
+olup da ışıktan daha hızlı gidebildiğini
+öğrenmek için buradaki videomuzu
+izleyebilirsiniz. Bir sonraki videoda
+görüşmek üzere. Hoşça kalın.

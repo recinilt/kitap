@@ -211,6 +211,36 @@ YANIT YAPISI:
 3. Sonuç - Bilgilerin özeti ve varsa genel çıkarımlar
 
 Doğru, tarafsız ve eğitici bir içerik oluştur."""
+    elif prompt_type == "documentary":
+        return f"""'{series_name}' başlıklı {num_episodes} bölümlük belgesel serisini edebi bir dille kitaplaştır.
+
+    İÇERİK HAKKINDA ÖZET: {content_summary}
+
+    ÖNEMLİ KURALLAR:
+    1. Kitabı tamamen TÜRKÇE olarak yaz. Hiçbir şekilde İngilizce veya başka dil kullanma.
+    2. Kitap, akademik bir belgesel kitabı düzeyinde, yayınlanabilir kalitede edebi bir dille yazılmalıdır.
+    3. Metni kitap formatında düzenle, tutarlı ve bütünlüklü bir akış sağla.
+    4. Belgeseldeki teknik terim ve kavramları doğru şekilde kullan ve gerektiğinde açıkla.
+    5. Görsel anlatımları yazılı dile uygun şekilde çevir. Anlaşılması güç olan ifadeleri düzelt.
+    6. Kronolojik ve tematik akışı koru, ana konuları ve temel düşünceleri öne çıkar.
+    7. Belgeselde sunulan bilimsel veriler, tarihi olaylar ve uzman görüşlerini koruyarak aktır.
+    8. Verilen içerikten fazlasını ekleme, uydurma; sadece içeriği düzenle ve zenginleştir.
+
+    KİTABIN YAPI VE BÖLÜMLERİ:
+    1. Kapak sayfası ve kitap başlığı - Çarpıcı ve içeriği yansıtan bir başlık
+    2. İçindekiler - Detaylı bölüm listesi
+    3. Önsöz - Belgeselin amacı ve kapsamı hakkında özet
+    4. Giriş - Belgesel konusunun genel çerçevesi ve önemi
+    5. Her bölüm için ayrı kısımlar (belgesel bölümlerine paralel olarak)
+    - Her bölümün ana teması ve öne çıkan noktaları
+    - Röportajlardan önemli alıntılar
+    - Görüntülenen olayların ve yerlerin detaylı betimlemeleri
+    6. Tematik analiz bölümleri - Belgeselin ele aldığı ana temaların derinlemesine incelenmesi
+    7. Sonuç ve Değerlendirme - Belgeselin vardığı sonuçlar ve çıkarımlar
+    8. Ek Bilgiler - Belgeselde kısaca değinilen ancak daha fazla bilgi gerektiren konular
+    9. Kaynakça - Belgeselde kullanılan kaynaklar (eğer belirtilmişse)
+
+    Paragraflar akıcı, açık ve anlaşılır olmalı. Belgesel içeriğinin ciddiyetini ve bilimsel değerini korurken, okuyucu için ilgi çekici bir anlatım kullan."""
     else:
         return ""
 
@@ -484,6 +514,183 @@ def process_youtube_links(youtube_links, series_name, num_episodes, custom_promp
     
     except Exception as e:
         return None, f"YouTube transkriptlerini işleme veya kitaplaştırma sırasında hata oluştu: {str(e)}"
+
+def process_multiple_youtube_series(youtube_links, series_name, custom_prompt, use_default_prompt, prompt_type="documentary", progress=gr.Progress()):
+    """Çoklu YouTube serisini işleyip kitaplaştırır"""
+    global rag_system
+    
+    if not check_system():
+        return None, "Önce sistemi başlatmalısınız! Sistem Başlatma sekmesine gidip 'Sistemi Başlat' düğmesine tıklayın."
+    
+    try:
+        # Linkleri satır satır ayır
+        links = [link.strip() for link in youtube_links.strip().split('\n') if link.strip()]
+        
+        if not links:
+            return None, "Hiçbir YouTube linki girilmedi."
+        
+        progress(0, desc="Başlatılıyor...")
+        start_time = time.time()
+        
+        # Klasör oluştur
+        temp_folder = f"temp_{int(start_time)}"
+        os.makedirs(temp_folder, exist_ok=True)
+        
+        # Transkriptleri indir
+        temp_files = []
+        all_content = ""
+        download_log = []
+        processed_docs = 0
+        
+        progress(0.05, desc="Transkriptler indiriliyor...")
+        
+        # 1. Tüm transkriptleri indir ve işle
+        for i, link in enumerate(links):
+            progress_val = 0.05 + (i / len(links) * 0.45)
+            progress(progress_val, desc=f"Transkript indiriliyor ({i+1}/{len(links)}): {link}")
+            
+            # URL'den video ID'sini çıkar ve transkripti indir
+            if "&" in link:
+                link = link.split("&")[0]  # URL parametrelerini temizle
+                
+            file_path, log_message = download_transcript_from_url(link)
+            download_log.append(log_message)
+            
+            if file_path:
+                # Dosyayı geçici klasöre taşı
+                new_file_path = os.path.join(temp_folder, os.path.basename(file_path))
+                os.rename(file_path, new_file_path)
+                temp_files.append(new_file_path)
+                
+                # Dosyayı oku
+                with open(new_file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                
+                # İçeriği ön işlemden geçir
+                processed_content = preprocess_transcript(content)
+                
+                # İşlenmiş içeriği yeni dosyaya yaz
+                processed_file_path = f"{new_file_path}.processed"
+                with open(processed_file_path, 'w', encoding='utf-8') as f:
+                    f.write(processed_content)
+                
+                # İçeriği topla
+                all_content += processed_content + "\n\n" + f"--- Video {i+1} Sonu ---\n\n"
+                
+                # İşlenmek üzere geçici dosyayı vektör veritabanına ekle
+                doc_count = rag_system.process_single_document(processed_file_path)
+                processed_docs += doc_count
+                
+                # İşlenmiş dosyayı sil
+                if os.path.exists(processed_file_path):
+                    os.remove(processed_file_path)
+        
+        if not temp_files:
+            # Geçici klasörü temizle
+            if os.path.exists(temp_folder):
+                import shutil
+                shutil.rmtree(temp_folder)
+            return None, f"Hiçbir transkript indirilemedi. İndirme günlüğü:\n\n" + "\n".join(download_log)
+        
+        progress(0.5, desc=f"Tüm transkriptler indirildi ve işlendi ({len(temp_files)} video, {processed_docs} parça)")
+        
+        # 2. Kitaplaştırma
+        progress(0.6, desc="Kitap oluşturuluyor...")
+        
+        # İçerik özeti oluştur (ilk 1000 karakter)
+        content_summary = all_content[:1000] + "..."
+            
+        # Hangi promptu kullanacağımızı belirle
+        prompt_to_use = ""
+        if use_default_prompt:
+            # Varsayılan promptu kullan
+            prompt_to_use = get_default_prompt(prompt_type, series_name, len(links), content_summary)
+        else:
+            # Kullanıcı tanımlı promptu kullan
+            prompt_to_use = custom_prompt.format(
+                series_name=series_name,
+                num_episodes=len(links),
+                content_summary=content_summary
+            )
+        
+        result = rag_system.query(prompt_to_use)
+        progress(0.9, desc="Kitap formatlanıyor ve dosyaya kaydediliyor...")
+        
+        # Sonuçtaki İngilizce içerikleri kontrol et
+        book_content = result["answer"]
+        
+        # Belirgin İngilizce pasajları kontrol et
+        english_sections = re.findall(r'\b(Introduction|Title|Subtitle|Author|Publisher|ISBN|Cover Image|Section \d+:|Example \d+:|Conclusion)\b', book_content)
+        if english_sections:
+            # İngilizce başlıkları Türkçe'ye çevir
+            book_content = book_content.replace("Introduction:", "Giriş:")
+            book_content = book_content.replace("Introduction", "Giriş")
+            book_content = book_content.replace("Title:", "Başlık:")
+            book_content = book_content.replace("Subtitle:", "Alt Başlık:")
+            book_content = book_content.replace("Author:", "Yazar:")
+            book_content = book_content.replace("Publisher:", "Yayıncı:")
+            book_content = book_content.replace("ISBN:", "ISBN:")
+            book_content = book_content.replace("Cover Image:", "Kapak Resmi:")
+            book_content = book_content.replace("Section", "Bölüm")
+            book_content = book_content.replace("Example", "Örnek")
+            book_content = book_content.replace("Conclusion:", "Sonuç:")
+            book_content = book_content.replace("Conclusion", "Sonuç")
+        
+        elapsed_time = time.time() - start_time
+        
+        # 3. Dosyaları kaydet
+        file_name = f"{series_name.replace(' ', '_')}_belgesel_kitabi.txt"
+        file_path = os.path.join(os.getcwd(), file_name)
+        with open(file_path, "w", encoding="utf-8") as f:
+            f.write(book_content)
+            
+        # Transkript indirme günlüğü ekle
+        log_file = f"{series_name.replace(' ', '_')}_indirme_gunlugu.txt"
+        with open(log_file, "w", encoding="utf-8") as f:
+            f.write("\n".join(download_log))
+        
+        # Tüm transkriptleri tek bir dosyada topla
+        all_transcripts_file = f"{series_name.replace(' ', '_')}_tum_transkriptler.txt"
+        with open(all_transcripts_file, "w", encoding="utf-8") as f:
+            f.write(all_content)
+        
+        # Temizlik
+        for temp_file in temp_files:
+            if os.path.exists(temp_file):
+                os.remove(temp_file)
+        
+        # Geçici klasörü temizle
+        if os.path.exists(temp_folder):
+            os.rmdir(temp_folder)
+        
+        progress(1.0, desc="Tamamlandı!")
+        
+        result_message = (
+            f"✅ Belgesel serisi kitaplaştırma tamamlandı!\n\n"
+            f"- {len(temp_files)} video transkripti işlendi\n"
+            f"- {processed_docs} doküman parçası vektör veritabanına eklendi\n"
+            f"- İşlem süresi: {elapsed_time:.2f} saniye\n\n"
+            f"Çıktı dosyaları:\n"
+            f"1. {file_name} - Oluşturulan kitap\n"
+            f"2. {all_transcripts_file} - Tüm transkriptler\n"
+            f"3. {log_file} - İndirme günlüğü\n\n"
+            f"Kitap içeriği önizleme:\n\n{book_content[:500]}...\n\n"
+            f"[Not: Tam kitap içeriği '{file_name}' dosyasında bulunmaktadır.]"
+        )
+        
+        return file_path, result_message
+    
+    except Exception as e:
+        # Hata durumunda temizlik yap
+        try:
+            # Geçici klasörü temizle
+            if os.path.exists(temp_folder):
+                import shutil
+                shutil.rmtree(temp_folder)
+        except:
+            pass
+            
+        return None, f"Belgesel serisi kitaplaştırma sırasında hata oluştu: {str(e)}"
 
 def process_transcripts_directory(transcript_dir, series_name, num_episodes, custom_prompt, use_default_prompt, progress=gr.Progress()):
     """Video transkript klasörünü işleyip kitaplaştırır"""
@@ -1010,6 +1217,52 @@ with gr.Blocks(title="LLM+RAG+FAISS Sistemi") as demo:
                 outputs=[smart_file_output, smart_output_text]
         )
 
+    with gr.Tab("📺 Belgesel Serisi Kitaplaştırma"):
+        gr.Markdown("## Belgesel Serisi Kitaplaştırma")
+        gr.Markdown("Bu sekme birden fazla belgesel/video linkini işleyerek kapsamlı bir kitap oluşturur.")
+        
+        with gr.Row():
+            doc_series_name = gr.Textbox(label="Belgesel/Video Serisi Adı", value="", placeholder="Örn: Evrenin Gizemi")
+        
+        doc_use_default_prompt = gr.Checkbox(label="Varsayılan belgesel istemini kullan", value=True)
+        
+        with gr.Group():
+            doc_custom_prompt = gr.Textbox(
+                label="Özel İstem (Prompt)", 
+                lines=20,
+                value=get_default_prompt("documentary", "{series_name}", "{num_episodes}", "{content_summary}"),
+                interactive=True
+            )
+        
+        # Checkbox değiştiğinde promptu güncelle
+        doc_use_default_prompt.change(
+            update_prompt_interactivity, 
+            inputs=[doc_use_default_prompt], 
+            outputs=[doc_custom_prompt]
+        )
+        
+        doc_youtube_links = gr.Textbox(
+            label="YouTube Linkleri (Her satıra bir link)", 
+            lines=10,
+            placeholder=(
+                "https://www.youtube.com/watch?v=VIDEO_ID_1\n"
+                "https://www.youtube.com/watch?v=VIDEO_ID_2\n"
+                "https://www.youtube.com/watch?v=VIDEO_ID_3\n"
+                "... (istediğiniz kadar link ekleyebilirsiniz)"
+            )
+        )
+        
+        doc_process_button = gr.Button("🎬 Belgesel Serisini İşle ve Kitaplaştır", variant="primary")
+        doc_output_file = gr.File(label="Oluşturulan Kitap Dosyası")
+        doc_output = gr.Markdown(label="İşlem Sonucu")
+        
+        # Belgesel serisi kitaplaştırma fonksiyonu bağlantısı
+        doc_process_button.click(
+            process_multiple_youtube_series,
+            inputs=[doc_youtube_links, doc_series_name, doc_custom_prompt, doc_use_default_prompt],
+            outputs=[doc_output_file, doc_output]
+        )
+
     with gr.Tab("📁 Klasörden Kitap Üret"):
         folder_input = gr.Textbox(label="Klasör Yolu (tam yol gir)")
         folder_title = gr.Textbox(label="Kitap Başlığı")
@@ -1032,4 +1285,4 @@ with gr.Blocks(title="LLM+RAG+FAISS Sistemi") as demo:
 # Ana çalıştırma bloğu
 if __name__ == "__main__":
     #demo.launch(share=False, server_name="127.0.0.1", server_port=7860)
-    demo.queue().launch(share=False, server_name="127.0.0.1", server_port=7860)
+    demo.queue().launch(share=False, server_name="127.0.0.1", server_port=7863)
