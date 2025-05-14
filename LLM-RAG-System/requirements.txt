@@ -1,7 +1,0 @@
-torch==2.1.0
-transformers==4.34.1
-sentence-transformers==2.2.2
-langchain==0.0.335
-langchain_community==0.0.12
-chromadb==0.4.18
-gradio==4.7.1

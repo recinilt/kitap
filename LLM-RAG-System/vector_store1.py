@@ -1,12 +1,14 @@
-# vector_store.py
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import FAISS
+from langchain.embeddings import HuggingFaceEmbeddings
 import os
+from langchain.vectorstores import Chroma
+
+
+
 
 class VectorStore:
-    def __init__(self, persist_directory="faiss_index"):
+    def __init__(self, persist_directory="chroma_db"):
         self.persist_directory = persist_directory
-        # Daha kompakt, GPU uyumlu embedding modeli
+        # CPU embedding modeli
         self.embeddings = HuggingFaceEmbeddings(
             model_name="sentence-transformers/all-MiniLM-L6-v2",
             model_kwargs={'device': 'cpu'}
@@ -14,15 +16,22 @@ class VectorStore:
         self.vector_store = None
 
     def create_vector_store(self, documents):
-        """Belgelerden FAISS vektör veritabanı oluşturur"""
-        self.vector_store = FAISS.from_documents(documents, self.embeddings)
-        self.vector_store.save_local(self.persist_directory)
+        """Belgelerden Chroma vektör veritabanı oluşturur"""
+        self.vector_store = Chroma.from_documents(
+            documents, 
+            self.embeddings,
+            persist_directory=self.persist_directory
+        )
+        self.vector_store.persist()  # Değişiklikleri diske kaydet
         return self.vector_store
         
     def load_vector_store(self):
-        """Mevcut FAISS veritabanını yükler"""
+        """Mevcut Chroma veritabanını yükler"""
         if os.path.exists(self.persist_directory):
-            self.vector_store = FAISS.load_local(self.persist_directory, self.embeddings)
+            self.vector_store = Chroma(
+                persist_directory=self.persist_directory,
+                embedding_function=self.embeddings
+            )
             return self.vector_store
         else:
             raise FileNotFoundError(f"{self.persist_directory} bulunamadı")

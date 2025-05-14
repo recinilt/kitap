@@ -1,0 +1,19 @@
+# 1. Yeni bir klasör oluşturun
+mkdir llm-rag-system
+cd llm-rag-system
+
+# 2. Dosyaları oluşturun (yukarıdaki içerikleri kullanın)
+
+# 3. Sanal ortam oluşturun ve etkinleştirin
+python -m venv venv
+# Windows'ta:
+venv\Scripts\activate  
+# Linux/Mac'te:
+# source venv/bin/activate
+
+# 4. Gereksinimleri yükleyin
+pip install -U pip
+pip install -r requirements.txt
+
+# 5. Uygulamayı çalıştırın
+python app.py

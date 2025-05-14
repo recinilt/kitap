@@ -1,7 +1,7 @@
-# vector_store.py
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import Chroma
+from langchain.embeddings import HuggingFaceEmbeddings
 import os
+from langchain.vectorstores import Chroma
+
 
 class VectorStore:
     def __init__(self, persist_directory="chroma_db"):
@@ -39,3 +39,19 @@ class VectorStore:
         if not self.vector_store:
             self.load_vector_store()
         return self.vector_store.similarity_search(query, k=k)
+        
+    def add_texts(self, texts, metadatas=None):
+        """Mevcut vektör veritabanına yeni metinler ekler"""
+        if not self.vector_store:
+            try:
+                self.load_vector_store()
+            except FileNotFoundError:
+                # Veritabanı yoksa yeni oluştur
+                from langchain.schema import Document
+                documents = [Document(page_content=text) for text in texts]
+                return self.create_vector_store(documents)
+                
+        # Mevcut veritabanına metinleri ekle
+        ids = self.vector_store.add_texts(texts, metadatas)
+        self.vector_store.persist()  # Değişiklikleri diske kaydet
+        return ids

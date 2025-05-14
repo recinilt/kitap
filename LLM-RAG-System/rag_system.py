@@ -9,7 +9,13 @@ class RAGSystem:
     def __init__(self, vector_store_dir="faiss_index"):
         self.vector_store = VectorStore(persist_directory=vector_store_dir)
         self.document_processor = DocumentProcessor()
-        self.language_model = LanguageModel()
+        #self.language_model = LanguageModel()
+        #self.language_model = LanguageModel("mistralai/Mistral-7B-Instruct-v0.1")
+        #self.language_model = LanguageModel("mistralai/Mistral-7B-v0.1")
+        self.language_model = LanguageModel("tiiuae/falcon-7b-instruct")
+
+
+
         self.llm = None
         self.qa_chain = None
     

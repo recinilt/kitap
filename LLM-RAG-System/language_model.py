@@ -4,58 +4,40 @@ from transformers import AutoTokenizer, AutoModelForCausalLM, pipeline
 import torch
 
 class LanguageModel:
-    def __init__(self, model_name="TheBloke/Mistral-7B-Instruct-v0.2-GPTQ", device="cuda:0"):
+    def __init__(self, model_name="tiiuae/falcon-rw-1b", device="cuda" if torch.cuda.is_available() else "cpu"):
         self.model_name = model_name
         self.device = device
         self.tokenizer = None
         self.model = None
         self.llm = None
-    
+
     def load_quantized_model(self):
-        """GPTQ formatında quantized model yükler - Bitsandbytes'ı kullanmadan"""
+        """Küçük, hafif bir model yükler ve LLM olarak döner"""
         try:
+            print(f"[INFO] Model yükleniyor: {self.model_name} ({self.device})")
+
             self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
             self.model = AutoModelForCausalLM.from_pretrained(
                 self.model_name,
-                device_map="auto",
-                trust_remote_code=True
+                torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
+                device_map="auto"
             )
-            
-            # Text generation pipeline
-            text_pipeline = pipeline(
+
+            text_gen = pipeline(
                 "text-generation",
                 model=self.model,
                 tokenizer=self.tokenizer,
-                max_length=4096,
+                #max_length=1024,
+                max_new_tokens=1024,
                 temperature=0.7,
-                top_p=0.95,
-                repetition_penalty=1.15
+                top_p=0.9,
+                repetition_penalty=1.1
             )
-            
-            self.llm = HuggingFacePipeline(pipeline=text_pipeline)
+
+            self.llm = HuggingFacePipeline(pipeline=text_gen)
+            print("[SUCCESS] Model başarıyla yüklendi.")
             return self.llm
+
         except Exception as e:
-            print(f"Model yükleme hatası: {e}")
-            print("Alternatif model yükleniyor...")
-            
-            # Alternatif, daha küçük bir model yükle
-            self.model_name = "TheBloke/Mistral-7B-Instruct-v0.2-GPTQ"
-            self.tokenizer = AutoTokenizer.from_pretrained(self.model_name)
-            self.model = AutoModelForCausalLM.from_pretrained(
-                self.model_name,
-                device_map="auto",
-                trust_remote_code=True
-            )
-            
-            text_pipeline = pipeline(
-                "text-generation",
-                model=self.model,
-                tokenizer=self.tokenizer,
-                max_length=4096,
-                temperature=0.7,
-                top_p=0.95,
-                repetition_penalty=1.15
-            )
-            
-            self.llm = HuggingFacePipeline(pipeline=text_pipeline)
-            return self.llm
+            print(f"[ERROR] Model yüklenemedi: {e}")
+            raise e
